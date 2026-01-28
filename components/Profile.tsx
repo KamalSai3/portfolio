@@ -97,10 +97,10 @@ export default function Profile() {
                     </div>
 
                     <div>
-                        <h3 className="text-xl font-semibold text-white/70 mb-6">Databases</h3>
+                        <h3 className="text-xl font-semibold text-white/70 mb-6">Databases & Backend</h3>
                         <div className="flex flex-wrap gap-4">
                             {skills.databases.map((skill) => (
-                                <div key={skill.name} className="flex items-center gap-3 px-4 py-2 rounded-full bg-white/5 border border-white/10">
+                                <div key={skill.name} className="flex items-center gap-3 px-4 py-2 rounded-full bg-emerald-900/20 border border-emerald-500/50">
                                     <img src={skill.icon} alt={skill.name} className="w-6 h-6" />
                                     <span className="text-white">{skill.name}</span>
                                 </div>
