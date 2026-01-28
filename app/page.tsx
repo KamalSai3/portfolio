@@ -29,7 +29,7 @@ export default function Home() {
       <Projects />
 
       <footer className="py-12 text-center text-white/30 text-sm">
-        <p>&copy; {new Date().getFullYear()} Kamal. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Kamal. All rights reserved. <span className="opacity-50 ml-2">v1.1</span></p>
       </footer>
     </main>
   );
