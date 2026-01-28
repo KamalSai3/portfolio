@@ -24,13 +24,14 @@ const skills = {
         { name: "Scikit Learn", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" },
         { name: "PyTorch", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
         { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+        { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
         // LangChain custom or text if not found easily standard
     ],
     databases: [
         { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
         { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
         { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
-    ],
+    ]
 };
 
 export default function Profile() {
@@ -78,7 +79,7 @@ export default function Profile() {
                         </div>
                     </div>
 
-                    <div className="mb-8">
+                    <div>
                         <h3 className="text-xl font-semibold text-white/70 mb-6">Frameworks & Libraries</h3>
                         <div className="flex flex-wrap gap-4">
                             {skills.frameworks.map((skill) => (
@@ -114,11 +115,6 @@ export default function Profile() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {/* Text Achievements */}
                         <div className="col-span-1 md:col-span-2 space-y-4">
-                            <div className="p-6 rounded-2xl bg-gradient-to-r from-purple-900/20 to-blue-900/20 border border-white/10">
-                                <p className="text-lg text-white">
-                                    "Recognized for ability to simplify and explain complex technical concepts to peers."
-                                </p>
-                            </div>
                             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
                                 <h3 className="text-xl font-bold text-white">First Prize</h3>
                                 <p className="text-white/60">Major Project Exhibition (Computer Science and Business Systems)</p>
