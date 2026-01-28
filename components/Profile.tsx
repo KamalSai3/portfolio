@@ -79,7 +79,7 @@ export default function Profile() {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="mb-8">
                         <h3 className="text-xl font-semibold text-white/70 mb-6">Frameworks & Libraries</h3>
                         <div className="flex flex-wrap gap-4">
                             {skills.frameworks.map((skill) => (
